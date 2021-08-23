@@ -11,7 +11,7 @@ def fibonacci_r(n):  # O(2^n)
 # liniowe
 def fibonacci_l(n):  # O(n)
     p, d = 0, 1
-    for _ in range(n):
+    for _ in range(n):  # "_" oznacza, ze nie interesuje nas ta zmienna
         p, d = d, p + d
     return p
 
